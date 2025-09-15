@@ -3,7 +3,7 @@ from Logger import Logger
 
 
 if __name__ == "__main__":
-    logger = Logger("127.0.0.1")
+    logger = Logger()
     logger.start()
 
     try:
